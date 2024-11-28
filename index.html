@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sko Nettbutikk</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header class="main-header">
+        <div class="logo-container">
+            <div class="text-logo">SkoNettbutikk</div>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#popular-products">Produkter</a></li>
+                <li><a href="#categories">Kategorier</a></li>
+                <li><a href="#contact">Kontakt oss</a></li>
+                <li><a href="checkout.html" class="cart-icon">🛒 Handlekurv</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+
+    
+    <section class="banner">
+        <h2>Velkommen til vår nettbutikk!</h2>
+        <p>Oppdag vårt brede utvalg av stilige og komfortable sko.</p>
+        <a href="#popular-products" class="btn">Utforsk Produkter</a>
+    </section>
+
+    
+    <section id="popular-products" class="products-section">
+        <h2>Våre Mest Populære Produkter</h2>
+        <div class="products-grid">
+            <div class="product-card">
+                <img src="https://picsum.photos/300/200" alt="Produkt 1">
+                <h3>Sko Modell 1</h3>
+                <div class="rating">
+                    ⭐⭐⭐⭐☆ <span>(120 anmeldelser)</span>
+                </div>
+                <p>Pris: 799,-</p>
+                <button class="btn-primary">Legg i handlekurv</button>
+            </div>
+            <div class="product-card">
+                <img src="https://picsum.photos/300/201" alt="Produkt 2">
+                <h3>Sko Modell 2</h3>
+                <div class="rating">
+                    ⭐⭐⭐⭐⭐ <span>(250 anmeldelser)</span>
+                </div>
+                <p>Pris: 999,-</p>
+                <button class="btn-primary">Legg i handlekurv</button>
+            </div>
+            <div class="product-card">
+                <img src="https://picsum.photos/300/202" alt="Produkt 3">
+                <h3>Sko Modell 3</h3>
+                <div class="rating">
+                    ⭐⭐⭐☆☆ <span>(75 anmeldelser)</span>
+                </div>
+                <p>Pris: 699,-</p>
+                <button class="btn-primary">Legg i handlekurv</button>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="categories" class="categories-section">
+        <h2>Våre Mest Populære Kategorier</h2>
+        <div class="categories-grid">
+            <div class="category-card">
+                <h3>Joggesko</h3>
+                <p>Perfekt for hverdagsbruk og trening.</p>
+            </div>
+            <div class="category-card">
+                <h3>Formelle Sko</h3>
+                <p>Legg til et snev av eleganse til antrekket ditt.</p>
+            </div>
+            <div class="category-card">
+                <h3>Sandaler</h3>
+                <p>Luftig og komfortabelt for sommeren.</p>
+            </div>
+            <div class="category-card">
+                <h3>Fjellsko</h3>
+                <p>Slitesterke sko for dine eventyr.</p>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="contact" class="contact-section">
+        <h2>Kontakt Oss</h2>
+        <p>Har du spørsmål? Ikke nøl med å kontakte oss!</p>
+        <form class="contact-form">
+            <input type="text" placeholder="Navn" required>
+            <input type="email" placeholder="E-post" required>
+            <input type="text" placeholder="Telefonnummer" required>
+            <textarea placeholder="Din melding" rows="5" required></textarea>
+            <button type="submit" class="btn-primary">Send</button>
+        </form>
+    </section>
+
+    
+    <footer>
+        <p>&copy; 2024 SkoNettbutikk | Alle rettigheter reservert.</p>
+    </footer>
+</body>
+</html>

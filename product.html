@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produktside - Sko Modell 1</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="main-header">
+        <div class="logo-container">
+            <img src="shoe-logo.png" alt="SkoLogo" class="logo">
+            <h1>SkoNettbutikk</h1>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html#popular-products">Produkter</a></li>
+                <li><a href="index.html#categories">Kategorier</a></li>
+                <li><a href="index.html#contact">Kontakt oss</a></li>
+                <li><a href="checkout.html" class="cart-icon">🛒 Handlekurv</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Breadcrumb -->
+    <section class="breadcrumb">
+        <a href="index.html">Hjem</a> &gt;
+        <a href="index.html#categories">Kategorier</a> &gt;
+        <span>Sko Modell 1</span>
+    </section>
+
+    <!-- Product Details -->
+    <section class="product-details">
+        <div class="product-images">
+            <img src="https://picsum.photos/400/300" alt="Sko Modell 1" class="main-image">
+            <div class="thumbnail-images">
+                <img src="https://picsum.photos/100/75?1" alt="Sko Bilde 1">
+                <img src="https://picsum.photos/100/75?2" alt="Sko Bilde 2">
+                <img src="https://picsum.photos/100/75?3" alt="Sko Bilde 3">
+            </div>
+        </div>
+        <div class="product-info">
+            <h1>Sko Modell 1</h1>
+            <p>Stilfull og komfortabel sko for enhver anledning.</p>
+            <div class="product-options">
+                <label for="size-select">Velg Størrelse:</label>
+                <select id="size-select">
+                    <option>38</option>
+                    <option>39</option>
+                    <option>40</option>
+                    <option>41</option>
+                    <option>42</option>
+                </select>
+                <button class="btn-primary">⭐ Legg til favoritter</button>
+                <button class="btn-primary">Legg i handlekurv</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Similar Products -->
+    <section class="similar-products">
+        <h2>Lignende Produkter</h2>
+        <div class="similar-products-grid">
+            <div class="product-card">
+                <img src="https://picsum.photos/200/150?4" alt="Produkt 4">
+                <h3>Sko Modell 4</h3>
+                <p>Pris: 899,-</p>
+                <div class="rating">
+                    ⭐⭐⭐⭐☆ <span>(80 anmeldelser)</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="https://picsum.photos/200/151?5" alt="Produkt 5">
+                <h3>Sko Modell 5</h3>
+                <p>Pris: 759,-</p>
+                <div class="rating">
+                    ⭐⭐⭐⭐☆ <span>(60 anmeldelser)</span>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn-link">Se flere lignende produkter &rarr;</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 SkoNettbutikk | Alle rettigheter reservert.</p>
+    </footer>
+</body>
+</html>
